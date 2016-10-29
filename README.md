@@ -1,5 +1,9 @@
 # docker-fetchmail
 alpine linux with fetchmail and logrotate
+```
+docker run -it --name fetchmail -v /fetchmail_config:/data -e TIMECRON:180 babim/fetchmail
+```
+TIMECRON: Time to Recheck mail
 
 # configuration
 create a local `etc/fetchmailrc` file and adjust it to your own needs
