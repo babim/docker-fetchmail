@@ -1,5 +1,8 @@
 #!/bin/sh
 
+SSHPASS1=${SSHPASS:-root}
+echo "root:$SSHPASS1" | chpasswd
+
 run()
 { 
     chmod 0600 /data/etc/fetchmailrc
