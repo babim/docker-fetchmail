@@ -1,10 +1,7 @@
-FROM alpine:3.3
-MAINTAINER ducanh.babim@yahoo.com
+FROM babim/alpinebase
 
 #install necessary packages
-RUN apk update; \
-    apk upgrade; \
-    apk add fetchmail openssl logrotate;
+RUN apk add --no-cache fetchmail openssl logrotate;
 
 #set workdir
 WORKDIR /data
