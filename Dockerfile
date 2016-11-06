@@ -1,4 +1,4 @@
-FROM babim/alpinebase
+FROM babim/alpinebase:ssh
 
 #install necessary packages
 RUN apk add --no-cache fetchmail openssl logrotate;
