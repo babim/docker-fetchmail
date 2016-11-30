@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/image/babim/fetchmail.svg)](https://microbadger.com/images/babim/fetchmail "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/babim/fetchmail.svg)](https://microbadger.com/images/babim/fetchmail "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/babim/fetchmail:ssh.svg)](https://microbadger.com/images/babim/fetchmail:ssh "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/babim/fetchmail:ssh.svg)](https://microbadger.com/images/babim/fetchmail:ssh "Get your own version badge on microbadger.com")
+
 # docker-fetchmail
 alpine linux with fetchmail and logrotate
 ```
